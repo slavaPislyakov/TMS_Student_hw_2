@@ -1,0 +1,20 @@
+{
+  "name": "untitled1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script_1": "tsc test.ts --t ES5",
+    "script_2": "tsc test.ts --removeComments",
+    "script_3": "tsc test.ts --outDir compiled"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
